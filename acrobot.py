@@ -14,8 +14,6 @@ __author__ = 'haliphax <https://github.com/haliphax>'
 # @TODO scoring mechanism
 
 
-# Twitter username of the acrobot account
-BOTNAME = '__acrobot__'
 # Twitter app credentials
 TOKEN = 'REDACTED'
 TOKEN_KEY = 'REDACTED'
