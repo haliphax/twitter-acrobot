@@ -84,7 +84,7 @@ def validate_acronym(acronym, submission):
 
     # first letter of each word needs to match the acronym
     for i in range(acronym_len):
-        if chunks[i][0].lower() != acronym[i].lower():
+        if chunks[i][0].upper() != acronym[i]:
             return False
 
     return True
