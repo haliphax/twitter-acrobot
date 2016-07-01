@@ -96,9 +96,10 @@ def generate_hashtag():
     from random import choice
 
     hashtag = ''
+    options = ascii_letters + digits
 
     for _ in range(1, HASHTAG_KEY_LENGTH + 1):
-        hashtag += choice(ascii_letters + digits)
+        hashtag += choice(options)
 
     return hashtag
 
